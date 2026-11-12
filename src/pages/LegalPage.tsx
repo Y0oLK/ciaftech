@@ -26,7 +26,7 @@ export const LegalPage: React.FC = () => {
           1. Software-Only &amp; Non-Content Guarantee
         </h2>
         <p className="text-sm leading-relaxed text-slate-700">
-          CIAF Tech develops and licenses Smart TV media player applications with integrated VPN protection for Samsung Tizen OS, LG webOS, Android TV / Google TV, Amazon Fire OS, and Apple tvOS. CIAF Tech does <strong>not</strong> sell, host, resell, or bundle television channels, VOD libraries, or copyrighted streaming subscriptions. Customers use CIAF Player exclusively to play personal local media, NAS/DLNA libraries, or playlists they are legally authorized to access.
+          CIAF Tech develops and licenses Smart TV media player applications with integrated VPN protection for Samsung Tizen OS, LG webOS, Android TV / Google TV, Amazon Fire OS, and Apple tvOS. CIAF Tech does <strong>not</strong> sell, host, resell, or bundle television channels, VOD libraries, or copyrighted streaming subscriptions. Customers use CIAF Playlist exclusively to play personal local media, NAS/DLNA libraries, or playlists they are legally authorized to access.
         </p>
       </section>
 
@@ -35,7 +35,7 @@ export const LegalPage: React.FC = () => {
           2. Digital License Refund Policy
         </h2>
         <p className="text-sm leading-relaxed text-slate-600">
-          Every Smart TV installation of CIAF Player includes a built-in 7-day evaluation mode so you can verify Tizen or webOS hardware decoding and VPN compatibility on your television before purchasing a digital key. Once a digital activation key has been paired to a TV Device ID, refunds are evaluated within 14 days for verified technical compatibility defects.
+          Every Smart TV installation of CIAF Playlist includes a built-in 7-day evaluation mode so you can verify Tizen or webOS hardware decoding and VPN compatibility on your television before purchasing a digital key. Once a digital activation key has been paired to a TV Device ID, refunds are evaluated within 14 days for verified technical compatibility defects.
         </p>
       </section>
 

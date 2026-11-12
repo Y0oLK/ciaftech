@@ -19,7 +19,7 @@ export const ActivatePage: React.FC = () => {
   useSeoMeta({
     title: 'Activate Smart TV & Built-In VPN — CIAF Tech Portal',
     description:
-      'Pair your CIAF Player digital license key and built-in Smart TV VPN with your Samsung Tizen, LG webOS, or Google TV MAC address.',
+      'Pair your CIAF Playlist digital license key and built-in Smart TV VPN with your Samsung Tizen, LG webOS, or Google TV MAC address.',
   });
 
   const handleActivate = (e: React.FormEvent) => {
@@ -30,7 +30,7 @@ export const ActivatePage: React.FC = () => {
     if (!cleanedKey || !cleanedMac) return;
 
     setStatusMessage(
-      `Device ${cleanedMac} (${platform}) paired with license ${cleanedKey} and VPN profile (${vpnNode}). Restart CIAF Player on your TV to sync settings.`,
+      `Device ${cleanedMac} (${platform}) paired with license ${cleanedKey} and VPN profile (${vpnNode}). Restart CIAF Playlist on your TV to sync settings.`,
     );
   };
 
@@ -42,7 +42,7 @@ export const ActivatePage: React.FC = () => {
           Smart TV &amp; VPN Pairing Portal
         </span>
         <h1 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">
-          Activate Your CIAF Player License
+          Activate Your CIAF Playlist License
         </h1>
         <p className="max-w-2xl text-sm leading-relaxed text-slate-600">
           Enter the Device ID / MAC Address shown on your Smart TV screen along with your CIAF license key, choose your built-in VPN routing node, and optionally attach your personal M3U &amp; XMLTV playlist URL.
@@ -164,7 +164,7 @@ export const ActivatePage: React.FC = () => {
           <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md">
             <img
               src="/images/remote-hand.jpg"
-              alt="CIAF Player Live TV Guide & EPG Interface"
+              alt="CIAF Playlist Live TV Guide & EPG Interface"
               className="aspect-video w-full object-cover"
             />
           </div>
@@ -175,7 +175,7 @@ export const ActivatePage: React.FC = () => {
               Where to Find Your TV Device ID
             </h2>
             <ol className="list-decimal space-y-2 pl-4 text-xs leading-relaxed text-slate-600">
-              <li>Install <strong>CIAF Player</strong> from your Samsung Apps or LG Content Store.</li>
+              <li>Install <strong>CIAF Playlist</strong> from your Samsung Apps or LG Content Store.</li>
               <li>Open the app on your Smart TV; your unique MAC / Device ID appears on the welcome screen.</li>
               <li>Enter that ID here and press <strong>Pair Smart TV</strong>, then reload the app.</li>
             </ol>

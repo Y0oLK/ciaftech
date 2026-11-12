@@ -63,12 +63,12 @@ const EXPERIENCES = [
 
 const FAQS = [
   {
-    q: 'Is CIAF Player compatible with my Samsung or LG Smart TV?',
-    a: 'Yes! CIAF Player works natively on Samsung Smart TVs (Tizen 5.0+, 2019–2026), LG Smart TVs (webOS 4.5+, 2019–2026), Sony/TCL/Hisense Google TV & Android TV, Amazon Fire TV Stick, and Apple TV 4K.',
+    q: 'Is CIAF Playlist compatible with my Samsung or LG Smart TV?',
+    a: 'Yes! CIAF Playlist works natively on Samsung Smart TVs (Tizen 5.0+, 2019–2026), LG Smart TVs (webOS 4.5+, 2019–2026), Sony/TCL/Hisense Google TV & Android TV, Amazon Fire TV Stick, and Apple TV 4K.',
   },
   {
     q: 'Does the player really include a VPN to keep everything working smoothly?',
-    a: 'Yes. Every CIAF Player license includes our built-in Smart TV VPN Shield. Turning it on inside the app encrypts your TV traffic and prevents ISP bandwidth throttling during busy evening hours and weekend football matches.',
+    a: 'Yes. Every CIAF Playlist license includes our built-in Smart TV VPN Shield. Turning it on inside the app encrypts your TV traffic and prevents ISP bandwidth throttling during busy evening hours and weekend football matches.',
   },
   {
     q: 'Does CIAF Tech sell TV channels or media subscriptions?',
@@ -141,7 +141,7 @@ export const HomePage: React.FC = () => {
               <p className="max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
                 Compatible with your <strong className="text-slate-900">Samsung Tizen</strong>,{' '}
                 <strong className="text-slate-900">LG webOS</strong>, or{' '}
-                <strong className="text-slate-900">Google TV</strong>. CIAF Player pairs 4K hardware acceleration with a{' '}
+                <strong className="text-slate-900">Google TV</strong>. CIAF Playlist pairs 4K hardware acceleration with a{' '}
                 <strong className="text-sky-700">built-in Smart TV VPN</strong> so your favorite shows, famous channels, and live football matches play without lag, throttling, or sudden cuts.
               </p>
 
@@ -196,7 +196,7 @@ export const HomePage: React.FC = () => {
                 <div className="overflow-hidden rounded-xl border border-slate-200/70 bg-white">
                   <img
                     src={platform.image}
-                    alt={`${platform.name} compatible with CIAF Player`}
+                    alt={`${platform.name} compatible with CIAF Playlist`}
                     className="aspect-[16/10] w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
@@ -220,7 +220,7 @@ export const HomePage: React.FC = () => {
             Big Match Nights, Famous Channels &amp; Cinema Marathons
           </h2>
           <p className="text-sm leading-relaxed text-slate-600 sm:text-base">
-            From high-speed weekend football to blockbuster movies and live TV channels, CIAF Player keeps your screen vivid, responsive, and running smoothly all the time.
+            From high-speed weekend football to blockbuster movies and live TV channels, CIAF Playlist keeps your screen vivid, responsive, and running smoothly all the time.
           </p>
         </div>
 
@@ -242,7 +242,7 @@ export const HomePage: React.FC = () => {
                 Watch Football Without Lag or Cut
               </h3>
               <p className="text-sm leading-relaxed text-slate-600">
-                Fast stadium camera pans demand locked frame pacing. CIAF Player pairs 50Hz/60Hz hardware sync with our anti-freeze buffer and built-in VPN so your match never stalls at kickoff.
+                Fast stadium camera pans demand locked frame pacing. CIAF Playlist pairs 50Hz/60Hz hardware sync with our anti-freeze buffer and built-in VPN so your match never stalls at kickoff.
               </p>
               <div className="flex flex-wrap gap-2 pt-1 text-xs font-semibold text-sky-700">
                 <span className="rounded-lg bg-sky-50 px-2.5 py-1 ring-1 ring-sky-200">
@@ -357,7 +357,7 @@ export const HomePage: React.FC = () => {
               Built-In Smart TV VPN So Your Player Works Without Problems
             </h2>
             <p className="text-sm leading-relaxed text-slate-600 sm:text-base">
-              Many Smart TVs in the UK, Europe, Canada, and the US experience evening ISP speed throttling right when big football games or 4K movie nights begin. CIAF Player builds an encrypted VPN tunnel directly into the TV app—no extra PC or router configuration required.
+              Many Smart TVs in the UK, Europe, Canada, and the US experience evening ISP speed throttling right when big football games or 4K movie nights begin. CIAF Playlist builds an encrypted VPN tunnel directly into the TV app—no extra PC or router configuration required.
             </p>
             <div className="grid gap-3 sm:grid-cols-2">
               {[
@@ -388,7 +388,7 @@ export const HomePage: React.FC = () => {
           <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-lg">
             <img
               src="/images/vpn-servers.jpg"
-              alt="CIAF Player Built-In Smart TV VPN Shield protecting 4K football, movies, and live channels"
+              alt="CIAF Playlist Built-In Smart TV VPN Shield protecting 4K football, movies, and live channels"
               className="aspect-video w-full object-cover"
             />
           </div>
@@ -402,10 +402,10 @@ export const HomePage: React.FC = () => {
             Engineered For Every Living Room
           </p>
           <h2 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">
-            Why Smart TV Viewers Love CIAF Player
+            Why Smart TV Viewers Love CIAF Playlist
           </h2>
           <p className="text-sm leading-relaxed text-slate-600 sm:text-base">
-            Default TV media apps freeze on large playlists and drop frames during fast sports. CIAF Player unlocks your TV’s hardware silicon for reliable 24/7 watching.
+            Default TV media apps freeze on large playlists and drop frames during fast sports. CIAF Playlist unlocks your TV’s hardware silicon for reliable 24/7 watching.
           </p>
         </div>
 
@@ -481,7 +481,7 @@ export const HomePage: React.FC = () => {
               Transparent Software + VPN Licensing
             </p>
             <h2 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">
-              Choose Your CIAF Player License
+              Choose Your CIAF Playlist License
             </h2>
             <p className="text-sm text-slate-600">
               Showing live regional pricing in{' '}
@@ -497,7 +497,7 @@ export const HomePage: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {PRODUCTS.map((product) => (
             <div
               key={product.id}

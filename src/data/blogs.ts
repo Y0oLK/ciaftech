@@ -21,6 +21,7 @@ export interface BlogCta {
 
 export type BlogCategory =
   | 'UK Guide'
+  | 'Nordic Guide'
   | 'Canada Guide'
   | 'Europe Guide'
   | 'USA Guide'
@@ -50,7 +51,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'uk-channels-sports-subscriptions-smart-tv-guide',
     title: 'UK TV Channels, Football & Subscriptions: Complete 2026 Smart TV Guide',
     excerpt:
-      'From BBC iPlayer, ITVX, and Channel 4 to Sky Sports, NOW, and TNT Sports—see what UK households pay and how CIAF Player + Built-In VPN keeps 50fps football smooth.',
+      'From BBC iPlayer, ITVX, and Channel 4 to Sky Sports, NOW, and TNT Sports—see what UK households pay and how CIAF Playlist + Built-In VPN keeps 50fps football smooth.',
     category: 'UK Guide',
     regionFocus: 'United Kingdom (£ GBP)',
     readTime: '6 min read',
@@ -76,7 +77,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: 'How to Watch Smoothly Without Evening Buffering on UK Broadband',
         paragraphs: [
           'Many UK broadband customers on BT, Virgin Media, Sky, TalkTalk, or EE experience sudden evening speed drops or 50Hz motion judder when streaming high-bitrate 4K feeds on Samsung Tizen, LG webOS, or Fire TV Stick.',
-          'CIAF Player pairs native 50fps hardware frame-rate locking with our Built-In Smart TV VPN so your personal or authorized media playlists and local home-network streams stay responsive, private, and free from ISP bandwidth shaping all weekend.',
+          'CIAF Playlist pairs native 50fps hardware frame-rate locking with our Built-In Smart TV VPN so your personal or authorized media playlists and local home-network streams stay responsive, private, and free from ISP bandwidth shaping all weekend.',
         ],
       },
     ],
@@ -110,7 +111,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Optimizing Canadian Smart TVs with Built-In VPN & 60Hz Lock',
         paragraphs: [
-          'Fast puck movement in NHL broadcasts quickly exposes slow software decoders. CIAF Player enables 60fps hardware acceleration on Samsung Tizen, LG webOS, and Google TV, supports full UTF-8 French accents in XMLTV program guides, and includes a 1-click Canadian/North American VPN Shield inside the app.',
+          'Fast puck movement in NHL broadcasts quickly exposes slow software decoders. CIAF Playlist enables 60fps hardware acceleration on Samsung Tizen, LG webOS, and Google TV, supports full UTF-8 French accents in XMLTV program guides, and includes a 1-click Canadian/North American VPN Shield inside the app.',
         ],
       },
     ],
@@ -144,7 +145,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Multi-Language Subtitles, DVB Audio & EU VPN Privacy',
         paragraphs: [
-          'European households frequently switch between original-version (VO) cinema audio and local commentary tracks. CIAF Player supports instant audio-track swapping, UTF-8 multi-language SRT/ASS subtitles, and built-in Frankfurt, Amsterdam, and Paris VPN nodes so your TV playback stays smooth all the time.',
+          'European households frequently switch between original-version (VO) cinema audio and local commentary tracks. CIAF Playlist supports instant audio-track swapping, UTF-8 multi-language SRT/ASS subtitles, and built-in Frankfurt, Amsterdam, and Paris VPN nodes so your TV playback stays smooth all the time.',
         ],
       },
     ],
@@ -153,7 +154,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'usa-channels-sports-subscriptions-smart-tv-guide',
     title: 'United States TV Channels, Live Sports & Subscriptions: Smart TV Guide',
     excerpt:
-      'Compare YouTube TV, Hulu + Live TV, Fubo, ESPN+, Peacock, and Paramount+—plus how CIAF Player delivers 60fps NFL, NBA, and 4K movies without lag.',
+      'Compare YouTube TV, Hulu + Live TV, Fubo, ESPN+, Peacock, and Paramount+—plus how CIAF Playlist delivers 60fps NFL, NBA, and 4K movies without lag.',
     category: 'USA Guide',
     regionFocus: 'United States ($ USD)',
     readTime: '6 min read',
@@ -178,7 +179,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Getting Smooth 60fps & Built-In VPN Protection on US Smart TVs',
         paragraphs: [
-          'Whether you run Samsung Tizen, LG webOS, Apple TV 4K, or Google TV, CIAF Player locks North American 60Hz output, passes Dolby Atmos over HDMI eARC, and includes an integrated US VPN toggle to prevent ISP congestion during peak primetime hours.',
+          'Whether you run Samsung Tizen, LG webOS, Apple TV 4K, or Google TV, CIAF Playlist locks North American 60Hz output, passes Dolby Atmos over HDMI eARC, and includes an integrated US VPN toggle to prevent ISP congestion during peak primetime hours.',
         ],
       },
     ],
@@ -187,7 +188,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'optimize-samsung-tizen-hdr-and-motion-for-4k-playback',
     title: 'How to Calibrate Samsung Tizen Motion & HDR for Smooth 4K Playback',
     excerpt:
-      'Stop micro-stutter on UK 50Hz football and US 60Hz cinema feeds by pairing Tizen Picture Clarity settings with CIAF Player hardware frame matching.',
+      'Stop micro-stutter on UK 50Hz football and US 60Hz cinema feeds by pairing Tizen Picture Clarity settings with CIAF Playlist hardware frame matching.',
     category: 'Tizen Guides',
     regionFocus: 'UK & North America',
     readTime: '6 min read',
@@ -205,15 +206,15 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        heading: 'Recommended Tizen 6.5 – 8.0 Settings for CIAF Player',
+        heading: 'Recommended Tizen 6.5 – 8.0 Settings for CIAF Playlist',
         paragraphs: [
-          'Open your Samsung TV Settings → Picture → Expert Settings while CIAF Player is active so your profile saves specifically to the app source:',
+          'Open your Samsung TV Settings → Picture → Expert Settings while CIAF Playlist is active so your profile saves specifically to the app source:',
         ],
         bullets: [
           'Set Picture Mode to Filmmaker Mode or Movie for accurate D65 white balance.',
           'Open Picture Clarity Settings → Custom: set Blur Reduction to 4 and Judder Reduction to 2 (or 0 for 24p cinema).',
           'Enable Input Signal Plus / Game Motion Off so HDR10+ dynamic tone mapping stays engaged.',
-          'Inside CIAF Player → Playback Engine, turn ON "Auto Refresh Rate Sync" and "Hardware HEVC Surface".',
+          'Inside CIAF Playlist → Playback Engine, turn ON "Auto Refresh Rate Sync" and "Hardware HEVC Surface".',
         ],
       },
     ],
@@ -236,7 +237,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: 'Understanding LG webOS App Sandboxes',
         paragraphs: [
           'LG webOS (versions 5 through 24) enforces strict per-app heap limits to protect Magic Remote responsiveness. When a heavy media player loads a 40,000-entry XMLTV program guide alongside high-bitrate 4K video, unoptimized apps hit webOS memory warnings and restart.',
-          'CIAF Player solves this by indexing your EPG database in compressed chunks and streaming thumbnails lazily as you scroll—keeping memory flat no matter how large your personal media library is.',
+          'CIAF Playlist solves this by indexing your EPG database in compressed chunks and streaming thumbnails lazily as you scroll—keeping memory flat no matter how large your personal media library is.',
         ],
       },
       {
@@ -247,7 +248,7 @@ export const BLOG_POSTS: BlogPost[] = [
         bullets: [
           'Disable "Quick Start+" under General → Devices → TV Management so webOS performs a clean RAM flush on power-off.',
           'Turn off AI Acoustic Tuning if you pass Dolby Digital Plus over eARC to an external soundbar.',
-          'In CIAF Player Settings → Buffer Profile, choose "Adaptive 4K (3.5s)" for Wi-Fi or "Low-Latency (1.2s)" for wired Ethernet.',
+          'In CIAF Playlist Settings → Buffer Profile, choose "Adaptive 4K (3.5s)" for Wi-Fi or "Low-Latency (1.2s)" for wired Ethernet.',
         ],
       },
     ],
@@ -275,7 +276,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Codec Support Matrix by TV Generation',
         paragraphs: [
-          'CIAF Player automatically detects your TV chip capabilities on startup and negotiates the cleanest hardware pipeline:',
+          'CIAF Playlist automatically detects your TV chip capabilities on startup and negotiates the cleanest hardware pipeline:',
         ],
         bullets: [
           'H.264 / AVC: Universal hardware support on every Tizen and webOS TV since 2016.',
@@ -314,7 +315,7 @@ export const BLOG_POSTS: BlogPost[] = [
         bullets: [
           'Use a dedicated 5 GHz or 6 GHz (Wi-Fi 6E) SSID within 25 feet of your router—real-world speeds easily reach 350–650 Mbps.',
           'On LG webOS and Android TV, a compatible USB 3.0 to Gigabit Ethernet adapter often unlocks 300+ Mbps over wire.',
-          'Enable CIAF Player’s Built-In VPN Shield to bypass ISP evening traffic shaping.',
+          'Enable CIAF Playlist’s Built-In VPN Shield to bypass ISP evening traffic shaping.',
         ],
       },
     ],
@@ -342,7 +343,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Best Practices for EPG & Timezone Offsets',
         paragraphs: [
-          'If you live in London (GMT/BST), Toronto (EST), or Berlin (CET) and notice your Electronic Program Guide is shifted by an hour during Daylight Saving transitions, set CIAF Player’s EPG Timezone Offset to "Auto System Clock" so schedule bars align accurately with your TV’s regional clock.',
+          'If you live in London (GMT/BST), Toronto (EST), or Berlin (CET) and notice your Electronic Program Guide is shifted by an hour during Daylight Saving transitions, set CIAF Playlist’s EPG Timezone Offset to "Auto System Clock" so schedule bars align accurately with your TV’s regional clock.',
         ],
       },
     ],
@@ -368,14 +369,14 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        heading: 'Benchmark Highlights with CIAF Player v4.2',
+        heading: 'Benchmark Highlights with CIAF Playlist v4.2',
         paragraphs: [
           'Across our UK and US lab units (Samsung S95D, LG C4, Sony Bravia 8):',
         ],
         bullets: [
           'Cold launch to EPG grid: 1.4s on webOS 24, 1.6s on Tizen 8.0, 1.9s on Google TV.',
           'Audio passthrough: LG webOS & Google TV support full eARC DTS/Dolby; Samsung Tizen shines with HDR10+ Adaptive & Dolby Atmos over eARC.',
-          'Remote ergonomics: LG’s Magic Remote pointer and Samsung’s SolarCell D-pad shortcuts both work natively inside CIAF Player.',
+          'Remote ergonomics: LG’s Magic Remote pointer and Samsung’s SolarCell D-pad shortcuts both work natively inside CIAF Playlist.',
         ],
       },
     ],
@@ -413,7 +414,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
         bullets: [
           'Optimize LG TV DNS Settings: Navigate to Settings > General > Network > Wi-Fi/Wired Connection > Edit. Uncheck "Set Automatically" and enter Cloudflare (1.1.1.1) or Google (8.8.8.8) to bypass slow ISP routing tables.',
-          'Use Hardware-Accelerated Media Players: Download lightweight, official media players from the LG Content Store such as IBO Player, Smart STB, Nanomid Player, or CIAF Player. These apps handle buffering caches much better than default browser players.',
+          'Use Hardware-Accelerated Media Players: Download lightweight, official media players from the LG Content Store such as IBO Player, Smart STB, Nanomid Player, or CIAF Playlist. These apps handle buffering caches much better than default browser players.',
           'Router-Level Optimization & VPN Setup: Since LG webOS does not support native standalone VPN apps directly, using a player with built-in encrypted routing or configuring a lightweight WireGuard profile on your router prevents ISP throttling without reducing your raw download speed.',
         ],
       },
@@ -422,7 +423,7 @@ export const BLOG_POSTS: BlogPost[] = [
       badge: 'UK Low-Ping European Routing',
       heading: 'Need Low-Ping European Routing?',
       description:
-        'Even the best player requires a fast, low-latency setup. If your current LG webOS configuration suffers from constant buffering despite having good UK broadband, request a Stream Compatibility check or activate CIAF Player + Built-In VPN.',
+        'Even the best player requires a fast, low-latency setup. If your current LG webOS configuration suffers from constant buffering despite having good UK broadband, request a Stream Compatibility check or activate CIAF Playlist + Built-In VPN.',
       primaryLabel: 'Request Compatibility Setup',
       primaryTo: '/activate',
       secondaryLabel: 'UK Smart TV Edition',
@@ -460,7 +461,7 @@ export const BLOG_POSTS: BlogPost[] = [
           'Complete this four-step setup on your LG Smart TV to get smooth 4K and 60fps playback:',
         ],
         bullets: [
-          'Installation: Open the LG Content Store on your Smart TV, search for IBO Player (or CIAF Player), and install the official application.',
+          'Installation: Open the LG Content Store on your Smart TV, search for IBO Player (or CIAF Playlist), and install the official application.',
           'Retrieve Device Credentials: Launch the app to display your unique Device ID and Device Key on the screen.',
           'webOS Custom Stream Configuration: Access the official player portal from your smartphone or PC, enter your device credentials, and upload your authorized M3U Media Playlist URL.',
           'Fine-Tuning Buffer Size: Inside the app settings on your LG TV, set the stream format to MPEG-TS for live broadcasts and adjust the buffer cache to Medium to prevent micro-stutters on BT Broadband or Sky connections.',
@@ -559,7 +560,7 @@ export const BLOG_POSTS: BlogPost[] = [
         bullets: [
           'Cloudflare DNS (1.1.1.1 / 1.0.0.1): Currently the fastest DNS resolver in London and Manchester, offering the lowest ping times for Live Stream Optimization.',
           'Google Public DNS (8.8.8.8 / 8.8.4.4): Highly reliable for resolving complex M3U playlist domains without packet drops.',
-          'Quad9 (9.9.9.9): Excellent security and stable routing for Smart STB, IBO Player, and CIAF Player users.',
+          'Quad9 (9.9.9.9): Excellent security and stable routing for Smart STB, IBO Player, and CIAF Playlist users.',
         ],
       },
       {
@@ -573,7 +574,7 @@ export const BLOG_POSTS: BlogPost[] = [
       badge: 'London & Manchester Nodes',
       heading: 'Test Our High-Speed UK-Optimized Route',
       description:
-        'Pair fast UK DNS resolution with CIAF Player’s built-in Smart TV VPN to stop evening ISP throttling on Virgin Media, Sky, and BT.',
+        'Pair fast UK DNS resolution with CIAF Playlist’s built-in Smart TV VPN to stop evening ISP throttling on Virgin Media, Sky, and BT.',
       primaryLabel: 'Get Instant Setup Credentials',
       primaryTo: '/activate',
       secondaryLabel: 'See License + VPN Plans',
@@ -612,7 +613,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
         bullets: [
           'Clear TV App Cache: Hold the power button on your LG Magic Remote or unplug the TV from the mains for 60 seconds once a month to free up internal memory.',
-          'Select the Right Player: For webOS 4.0 and newer, CIAF Player, IBO Player, and Smart STB offer strong hardware decoding for H.264 and HEVC (H.265) 4K streams.',
+          'Select the Right Player: For webOS 4.0 and newer, CIAF Playlist, IBO Player, and Smart STB offer strong hardware decoding for H.264 and HEVC (H.265) 4K streams.',
           'Verify Server Ping: Always test your stream route during peak UK evening hours (7 PM – 11 PM) before committing to any long-term setup.',
         ],
       },
@@ -626,6 +627,233 @@ export const BLOG_POSTS: BlogPost[] = [
       primaryTo: '/activate',
       secondaryLabel: 'UK Smart TV Guide',
       secondaryTo: '/uk',
+    },
+  },
+  {
+    slug: 'setup-optimize-streaming-apps-lg-webos-sweden-norway',
+    title: 'How to Setup and Optimize Streaming Apps on LG webOS in Sweden & Norway',
+    excerpt:
+      'Maximize your Nordic fibre connection on LG Smart TVs. Technical guide to configuring webOS media players, EPG support, and 60fps streaming in Sweden and Norway.',
+    category: 'Nordic Guide',
+    regionFocus: 'Sweden & Norway (LG webOS)',
+    readTime: '5 min read',
+    publishedAt: 'Nov 2026',
+    author: 'Elena Rostova',
+    authorRole: 'webOS Systems Architect',
+    accentColor: 'from-sky-500/20 to-cyan-600/20',
+    coverImage: '/images/platforms/webos.jpg',
+    sections: [
+      {
+        heading: 'Why High-Speed Nordic Fibre Still Buffers on Smart TVs',
+        paragraphs: [
+          'Scandinavia boasts some of the fastest residential fibre networks in the world, powered by providers like Telia, Telenor, and Bahnhof. However, even with a 1 Gbps connection in Stockholm or Oslo, LG Smart TV owners frequently experience micro-stuttering and slow loading when running unoptimized streaming apps.',
+        ],
+        bullets: [
+          'Server Distance & Routing Hops: Many global media servers route traffic through congested nodes outside Northern Europe, increasing latency.',
+          'Outdated webOS Player Codecs: High-bitrate 50fps/60fps broadcasts require proper hardware decoding inside your LG TV settings.',
+        ],
+        image: {
+          src: '/images/vpn-servers.jpg',
+          alt: 'Northern European low-latency server infrastructure for Nordic Smart TVs',
+          caption: 'Routing through Stockholm, Frankfurt, or Amsterdam keeps Nordic fibre ping under 15ms.',
+        },
+      },
+      {
+        heading: 'Optimization Steps for Nordic LG TV Users',
+        paragraphs: [
+          'Apply these three steps on your LG OLED or QNED television in Sweden and Norway:',
+        ],
+        bullets: [
+          'Install Modern webOS Players: Use IBO Player, Nanomid Player, or CIAF Playlist from the LG Content Store for native 60fps support and instant EPG loading.',
+          'Use Direct Ethernet or Wi-Fi 6: Pair your router directly to the TV’s LAN port or utilize the 5GHz spectrum to maintain a sub-15ms ping.',
+          'Choose Northern European Server Nodes: Ensure your M3U media playlist connects through Frankfurt, Amsterdam, or Stockholm servers for zero-latency playback.',
+        ],
+      },
+    ],
+    cta: {
+      badge: 'Nordic Low-Ping Infrastructure',
+      heading: 'Experience True Zero-Buffer Streaming',
+      description:
+        'Test our dedicated European low-ping infrastructure and CIAF Playlist + Built-In VPN on your LG Smart TV today.',
+      primaryLabel: 'Check LG TV Compatibility',
+      primaryTo: '/activate',
+      secondaryLabel: 'View Plans + VPN',
+      secondaryTo: '/products',
+    },
+  },
+  {
+    slug: 'solve-lg-tv-stream-lag-telia-telenor-fibre',
+    title: 'Solving LG TV Stream Lag on Telia and Telenor Fibre Connections',
+    excerpt:
+      'Experiencing lag or buffering on your LG Smart TV with Telia or Telenor? Follow this step-by-step network and DNS optimization guide for Nordic homes.',
+    category: 'Nordic Guide',
+    regionFocus: 'Telia & Telenor Fibre',
+    readTime: '4 min read',
+    publishedAt: 'Nov 2026',
+    author: 'Marcus Vance',
+    authorRole: 'Network & VPN Engineer',
+    accentColor: 'from-blue-500/20 to-indigo-600/20',
+    coverImage: '/images/router-wifi.jpg',
+    sections: [
+      {
+        heading: 'Diagnosing and Fixing Telia / Telenor Routing Lag',
+        paragraphs: [
+          'If you are connected to Telia or Telenor fibre in Sweden, Norway, or Denmark, your internet speed is more than enough for 4K streaming. Yet, when watching live broadcasts on an LG Smart TV, sudden frame drops or buffering loops can ruin the experience.',
+        ],
+        bullets: [
+          'Bypass Default ISP DNS: Telia and Telenor routers automatically assign ISP DNS servers that can bottleneck third-party media playlists. Manually set your LG TV DNS to 1.1.1.1 (Cloudflare) for direct routing.',
+          'Disable Router "Smart Steering" / Band Steering: Dual-band routers from Nordic ISPs often switch your TV mid-stream between 2.4GHz and 5GHz, causing an immediate freeze. Split your Wi-Fi bands into separate SSIDs and lock your LG TV onto 5GHz.',
+          'Adjust Stream Buffer Settings: Inside your webOS media player, switch the decoder from Software to Hardware to let your LG processor handle heavy 50fps video streams smoothly.',
+        ],
+        image: {
+          src: '/images/modern-living-tv.jpg',
+          alt: 'Living room LG Smart TV on 5GHz Telia and Telenor fibre network',
+          caption: 'Locking your LG TV onto a dedicated 5GHz SSID prevents mid-stream band-steering freezes.',
+        },
+      },
+    ],
+    cta: {
+      badge: 'Telia & Telenor Line Check',
+      heading: 'Test Low-Ping Nordic Routing',
+      description:
+        'Verify the difference a dedicated European backbone makes on your Telia or Telenor line. Request a quick compatibility playlist check via our setup form.',
+      primaryLabel: 'Request Compatibility Setup',
+      primaryTo: '/activate',
+      secondaryLabel: 'See 1 & 2-Year Plans',
+      secondaryTo: '/products',
+    },
+  },
+  {
+    slug: 'best-webos-media-players-epg-nordic-smart-tvs-2026',
+    title: 'Best webOS Media Players with EPG Support for Nordic Smart TVs (2026)',
+    excerpt:
+      'Discover the top LG webOS media players supporting full XMLTV EPG guides, 50fps smoothness, and fast channel zapping for users in Sweden, Norway, and Denmark.',
+    category: 'Nordic Guide',
+    regionFocus: 'Sweden, Norway & Denmark',
+    readTime: '5 min read',
+    publishedAt: 'Nov 2026',
+    author: 'Elena Rostova',
+    authorRole: 'webOS Systems Architect',
+    accentColor: 'from-indigo-500/20 to-violet-600/20',
+    coverImage: '/images/remote-hand.jpg',
+    sections: [
+      {
+        heading: 'Top 3 Media Players for LG webOS in Scandinavia',
+        paragraphs: [
+          'Nordic viewers expect crystal-clear 50fps/60fps picture quality and an accurate, fast-loading Electronic Program Guide (EPG) when organizing their Smart TV media playlists. While many apps exist on the LG Content Store, only a few handle heavy XMLTV EPG data without slowing down the television interface.',
+        ],
+        bullets: [
+          'IBO Player (and CIAF Playlist): Features fast EPG parsing on webOS, clean Scandinavian UTF-8 language support, and seamless M3U playlist management.',
+          'Smart STB: Ideal for users who prefer a classic set-top-box interface with instant channel zapping and catch-up support.',
+          'IPTV Smarters Pro (webOS Edition): Offers an intuitive layout with separate sections for live streams, movies, and series, plus built-in speed testing.',
+        ],
+        image: {
+          src: '/images/cinema-shows.jpg',
+          alt: 'Smart TV displaying organized XMLTV EPG guide and movies',
+          caption: 'Setting EPG updates to once every 24 hours cuts LG webOS startup time to ~2 seconds.',
+        },
+      },
+      {
+        heading: 'Pro Tip for Faster EPG Loading',
+        paragraphs: [
+          'In your player settings, set the EPG update interval to Once every 24 hours rather than On every app launch to cut startup time down to 2 seconds.',
+        ],
+      },
+    ],
+    cta: {
+      badge: 'Scandinavian EPG & 50fps',
+      heading: 'Test Low-Ping Nordic Routing',
+      description:
+        'Verify the difference a dedicated European backbone makes on your Telia or Telenor line. Request a quick compatibility playlist check via our setup form.',
+      primaryLabel: 'Test TV Compatibility',
+      primaryTo: '/activate',
+      secondaryLabel: 'Explore CIAF Playlist',
+      secondaryTo: '/products',
+    },
+  },
+  {
+    slug: 'zero-buffer-protocol-4k-60fps-lg-webos-scandinavia',
+    title: 'Zero-Buffer Protocol: Optimizing 4K & 60fps Streams on LG webOS in Scandinavia',
+    excerpt:
+      'Configure your LG Smart TV for ultra-smooth 4K and 60fps live media playback. Learn the exact network, cache, and playlist settings for Nordic users.',
+    category: 'Nordic Guide',
+    regionFocus: 'Scandinavia (4K & 60fps)',
+    readTime: '5 min read',
+    publishedAt: 'Nov 2026',
+    author: 'Marcus Vance',
+    authorRole: 'Network & VPN Engineer',
+    accentColor: 'from-emerald-500/20 to-teal-600/20',
+    coverImage: '/images/sports-zero-lag.jpg',
+    sections: [
+      {
+        heading: 'The 4-Step Zero-Buffer Protocol',
+        paragraphs: [
+          'Modern LG OLED and QNED televisions are engineered for breathtaking 4K HDR and 60fps motion. To unlock this performance when streaming live network playlists in Sweden, Norway, or Denmark, your network configuration must eliminate jitter and packet loss.',
+        ],
+        bullets: [
+          'Step 1 — Wired LAN Adapter Trick: The built-in Ethernet port on many LG TVs is capped at 100Mbps. Using a compatible USB 3.0 to Gigabit Ethernet adapter unlocks up to 300Mbps+ on your fibre line for ultra-high-bitrate 4K streams.',
+          'Step 2 — Quick Start+ Toggle: Turn OFF "Quick Start+" in Settings > General > Additional Settings. Leaving it on prevents the TV from clearing RAM cache when turned off, leading to gradual app sluggishness.',
+          'Step 3 — Custom DNS Routing: Set primary DNS to 1.1.1.1 and secondary to 9.9.9.9 to guarantee sub-10ms lookup times across Northern Europe.',
+          'Step 4 — Low-Latency Server Selection: Always pair your player with servers hosted in Northern/Central Europe to maintain minimal ping.',
+        ],
+        image: {
+          src: '/images/platforms/webos.jpg',
+          alt: 'LG OLED webOS TV configured for 4K 60fps zero-buffer playback',
+          caption: 'Disabling Quick Start+ and pairing custom DNS keeps LG webOS memory clean for 4K streams.',
+        },
+      },
+    ],
+    cta: {
+      badge: '4K & 60fps Nordic Tuning',
+      heading: 'Test Low-Ping Nordic Routing',
+      description:
+        'Verify the difference a dedicated European backbone makes on your Telia or Telenor line. Request a quick compatibility playlist check via our setup form.',
+      primaryLabel: 'Activate Zero-Buffer Setup',
+      primaryTo: '/activate',
+      secondaryLabel: 'Compare 1 & 2-Year Licenses',
+      secondaryTo: '/products',
+    },
+  },
+  {
+    slug: 'webos-custom-stream-configuration-fix-crashes-nordic',
+    title: 'WebOS Custom Stream Configuration: Fix App Crashes & Playback Errors (Nordic Guide)',
+    excerpt:
+      'Fix "Stream Format Not Supported" and sudden app crashes on LG Smart TVs. A complete troubleshooting guide for M3U media playlist setup in Sweden and Norway.',
+    category: 'webOS Tips',
+    regionFocus: 'Sweden & Norway (Troubleshooting)',
+    readTime: '4 min read',
+    publishedAt: 'Nov 2026',
+    author: 'Elena Rostova',
+    authorRole: 'webOS Systems Architect',
+    accentColor: 'from-rose-500/20 to-indigo-600/20',
+    coverImage: '/images/home-cinema.jpg',
+    sections: [
+      {
+        heading: 'How to Fix Common webOS Playback Errors',
+        paragraphs: [
+          'Encountering a "Playback Error" or sudden app freeze while watching live broadcasts on your LG Smart TV is usually caused by a mismatch between your playlist stream format and your webOS media player settings.',
+        ],
+        bullets: [
+          'Change Stream Output Format: If a stream freezes after 10 seconds, edit your M3U playlist settings from HLS (.m3u8) to MPEG-TS (.ts) (or vice versa), as different webOS versions prefer specific container formats.',
+          'Remove Unused Categories: Loading a playlist with 30,000+ global entries exhausts the LG TV’s memory buffer. Request a streamlined playlist focused strictly on European and Nordic categories for instant loading.',
+          'Update webOS Firmware: Ensure your LG TV firmware is up to date so the internal media codecs support the latest high-efficiency video streams.',
+        ],
+        image: {
+          src: '/images/remote-hand.jpg',
+          alt: 'Troubleshooting LG webOS playlist format and playback settings with Magic Remote',
+          caption: 'Switching between HLS and MPEG-TS containers resolves most LG webOS playback errors.',
+        },
+      },
+    ],
+    cta: {
+      badge: 'Nordic Setup Assistance',
+      heading: 'Ready to Test Smooth, Lag-Free Playback?',
+      description:
+        'Let our technical team configure a clean, low-ping setup tailored to your LG webOS model and Nordic internet provider. Fill out the quick setup form to get started.',
+      primaryLabel: 'Open Setup Form',
+      primaryTo: '/activate',
+      secondaryLabel: 'See License + VPN Plans',
+      secondaryTo: '/products',
     },
   },
 ];

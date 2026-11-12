@@ -13,7 +13,7 @@ const BRAND_COMPATIBILITY = [
     minYear: 2019,
     notes:
       'Compatible with Tizen 5.0–8.0+. Includes native AVPlay 4K HDR10+, built-in VPN Shield, and 50/60Hz sports frame sync.',
-    installStep: 'Install "CIAF Player" directly from Samsung Apps Store using your TV remote.',
+    installStep: 'Install "CIAF Playlist" directly from Samsung Apps Store using your TV remote.',
   },
   {
     brand: 'LG OLED / QNED / NanoCell',
@@ -21,7 +21,7 @@ const BRAND_COMPATIBILITY = [
     minYear: 2019,
     notes:
       'Compatible with webOS 4.5–24+. Supports Magic Remote pointer, Dolby Vision, eARC audio, and 1-click built-in VPN.',
-    installStep: 'Download "CIAF Player" from LG Content Store → Entertainment.',
+    installStep: 'Download "CIAF Playlist" from LG Content Store → Entertainment.',
   },
   {
     brand: 'Sony Bravia / TCL / Hisense',
@@ -29,7 +29,7 @@ const BRAND_COMPATIBILITY = [
     minYear: 2018,
     notes:
       'Full Android TV 9+ and Google TV compatibility with AV1 hardware decoding and integrated Smart VPN protection.',
-    installStep: 'Search "CIAF Player" on Google Play Store directly on your TV.',
+    installStep: 'Search "CIAF Playlist" on Google Play Store directly on your TV.',
   },
   {
     brand: 'Amazon Fire TV Stick 4K / Max',
@@ -45,7 +45,7 @@ const BRAND_COMPATIBILITY = [
     minYear: 2018,
     notes:
       'Metal-accelerated tvOS 16+ player with automatic dynamic range matching, smooth EPG, and built-in VPN tunnel.',
-    installStep: 'Download "CIAF Player" from the tvOS App Store.',
+    installStep: 'Download "CIAF Playlist" from the tvOS App Store.',
   },
 ];
 
@@ -59,9 +59,9 @@ export const ProductsPage: React.FC = () => {
   const [addedId, setAddedId] = useState<string | null>(null);
 
   useSeoMeta({
-    title: 'CIAF Player + VPN Licenses & TV Compatibility — CIAF Tech',
+    title: 'CIAF Playlist + VPN Licenses & TV Compatibility — CIAF Tech',
     description:
-      'Compare 1-Year, Lifetime, and Multi-TV digital player licenses with built-in VPN for Samsung Tizen, LG webOS, Google TV, Firestick, and Apple TV.',
+      'Compare 1-Year, 2-Year, and Multi-TV digital playlist licenses with built-in VPN for Samsung Tizen, LG webOS, Google TV, Firestick, and Apple TV.',
   });
 
   const compat = BRAND_COMPATIBILITY[selectedBrandIdx];
@@ -132,7 +132,7 @@ export const ProductsPage: React.FC = () => {
       </div>
 
       {/* Product Cards */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 lg:grid-cols-3">
         {PRODUCTS.map((product) => (
           <div
             key={product.id}

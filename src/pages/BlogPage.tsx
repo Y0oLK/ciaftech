@@ -7,6 +7,7 @@ import { useSeoMeta } from '../utils/useSeoMeta';
 const CATEGORIES: ('All' | BlogCategory)[] = [
   'All',
   'UK Guide',
+  'Nordic Guide',
   'Canada Guide',
   'Europe Guide',
   'USA Guide',

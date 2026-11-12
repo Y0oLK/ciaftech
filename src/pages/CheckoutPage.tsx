@@ -105,7 +105,7 @@ export const CheckoutPage: React.FC = () => {
   useSeoMeta({
     title: 'Checkout — PayPal & Crypto Digital License Delivery | CIAF Tech',
     description:
-      'Complete your CIAF Player + Built-In VPN Smart TV software license order using PayPal or Cryptocurrency (USDT, USDC, BTC, ETH).',
+      'Complete your CIAF Playlist + Built-In VPN Smart TV software license order using PayPal or Cryptocurrency (USDT, USDC, BTC, ETH).',
   });
 
   useEffect(() => {
@@ -260,7 +260,7 @@ export const CheckoutPage: React.FC = () => {
             Instant Digital Delivery + Built-In VPN
           </p>
           <h1 className="font-display text-3xl font-bold text-slate-900">
-            CIAF Player License Checkout
+            CIAF Playlist License Checkout
           </h1>
         </div>
         <span className="text-xs font-semibold text-slate-500">
@@ -528,7 +528,7 @@ export const CheckoutPage: React.FC = () => {
                 <div className="rounded-xl border border-slate-200 bg-white p-3 text-xs text-slate-600">
                   <p className="font-bold text-slate-900">Itemized License Description:</p>
                   <p className="mt-1">
-                    CIAF Player Smart TV Media Player + Integrated VPN License Key(s) — Software Only.
+                    CIAF Playlist Smart TV Media Player + Integrated VPN License Key(s) — Software Only.
                   </p>
                 </div>
 
@@ -648,7 +648,7 @@ export const CheckoutPage: React.FC = () => {
             <div className="flex items-start gap-2.5 rounded-xl border border-slate-200 bg-slate-50 p-3.5 text-[11px] text-slate-600">
               <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-sky-600" />
               <span>
-                Purchase includes CIAF Player + Built-In VPN software license key(s) only. No TV channels or copyrighted media streams are provided.
+                Purchase includes CIAF Playlist + Built-In VPN software license key(s) only. No TV channels or copyrighted media streams are provided.
               </span>
             </div>
           </div>

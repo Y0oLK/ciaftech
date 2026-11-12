@@ -24,8 +24,8 @@ const REGION_COPY = {
     ],
     faq: [
       {
-        q: 'Does CIAF Player work on Samsung UK, LG UK OLED, and Firestick?',
-        a: 'Yes. CIAF Player runs natively on Samsung Tizen (2019+), LG webOS (2019+), Android/Google TV, and Amazon Fire TV Stick 4K devices across the UK.',
+        q: 'Does CIAF Playlist work on Samsung UK, LG UK OLED, and Firestick?',
+        a: 'Yes. CIAF Playlist runs natively on Samsung Tizen (2019+), LG webOS (2019+), Android/Google TV, and Amazon Fire TV Stick 4K devices across the UK.',
       },
       {
         q: 'How does the included VPN keep my TV working smoothly all the time?',
@@ -46,8 +46,8 @@ const REGION_COPY = {
     ],
     faq: [
       {
-        q: 'Does CIAF Player support bilingual French/English EPG guides in Québec?',
-        a: 'Yes. CIAF Player supports full UTF-8 character sets for French accents and lets you switch the entire TV interface between English and Français.',
+        q: 'Does CIAF Playlist support bilingual French/English EPG guides in Québec?',
+        a: 'Yes. CIAF Playlist supports full UTF-8 character sets for French accents and lets you switch the entire TV interface between English and Français.',
       },
       {
         q: 'Is the Smart TV VPN included with my Canadian license?',
@@ -209,7 +209,7 @@ export const RegionLandingPage: React.FC<RegionLandingProps> = ({ targetRegion }
           <Lock className="mb-3 h-6 w-6 text-indigo-600" />
           <h3 className="font-display text-base font-bold text-slate-900">Built-In Smart VPN</h3>
           <p className="mt-2 text-xs leading-relaxed text-slate-600">
-            Encrypted routing right inside CIAF Player keeps channels, movies, and football working all the time.
+            Encrypted routing right inside CIAF Playlist keeps channels, movies, and football working all the time.
           </p>
         </div>
         <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">

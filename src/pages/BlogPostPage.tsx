@@ -151,7 +151,7 @@ export const BlogPostPage: React.FC = () => {
                       Built-In VPN + Zero-Lag Engine
                     </span>
                     <h3 className="font-display text-lg font-bold text-slate-900">
-                      Upgrade Your Tizen or webOS TV with CIAF Player v4.2
+                      Upgrade Your Tizen or webOS TV with CIAF Playlist v4.2
                     </h3>
                     <p className="text-xs leading-relaxed text-slate-600">
                       Compatible with your Smart TV and includes integrated VPN protection so shows, movies, and football games play smoothly all the time.
