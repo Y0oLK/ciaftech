@@ -9,20 +9,24 @@ export const BlogPostPage: React.FC = () => {
   const post = BLOG_POSTS.find((p) => p.slug === slug);
 
   useSeoMeta({
-    title: post ? `${post.title} — CIAF Tech Blog` : 'Article Not Found — CIAF Tech',
+    title: post ? `${post.title} — CIAF Tech` : 'Article Not Found — CIAF Tech',
     description: post ? post.excerpt : 'Smart TV optimization guides by CIAF Tech.',
     jsonLd: post
       ? {
           '@context': 'https://schema.org',
-          '@type': 'HowTo',
-          name: post.title,
+          '@type': 'Article',
+          headline: post.title,
           description: post.excerpt,
-          step: post.sections.map((sec, idx) => ({
-            '@type': 'HowToStep',
-            position: idx + 1,
-            name: sec.heading,
-            text: sec.paragraphs[0] || sec.heading,
-          })),
+          image: `https://ciaftech.com${post.coverImage}`,
+          author: {
+            '@type': 'Person',
+            name: post.author,
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: 'CIAF Tech',
+          },
+          mainEntityOfPage: `https://ciaftech.com/blog/${post.slug}`,
         }
       : undefined,
   });
@@ -110,6 +114,21 @@ export const BlogPostPage: React.FC = () => {
                   {para}
                 </p>
               ))}
+              {section.image && (
+                <figure className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-950 shadow-md">
+                  <img
+                    src={section.image.src}
+                    alt={section.image.alt}
+                    loading="lazy"
+                    className="aspect-video w-full object-cover"
+                  />
+                  {section.image.caption && (
+                    <figcaption className="border-t border-slate-200 bg-slate-50 px-4 py-2.5 text-xs text-slate-600">
+                      {section.image.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              )}
               {section.bullets && (
                 <ul className="space-y-2.5 rounded-2xl border border-slate-200 bg-white p-5 shadow-xs">
                   {section.bullets.map((b) => (
@@ -163,6 +182,43 @@ export const BlogPostPage: React.FC = () => {
             )}
           </React.Fragment>
         ))}
+
+        {post.cta && (
+          <div className="rounded-3xl border border-indigo-200 bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 p-7 text-white shadow-xl sm:p-8">
+            <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-center">
+              <div className="space-y-2">
+                {post.cta.badge && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-sky-500/20 px-3 py-1 text-xs font-bold text-sky-300">
+                    <Sparkles className="h-3.5 w-3.5" />
+                    {post.cta.badge}
+                  </span>
+                )}
+                <h3 className="font-display text-2xl font-bold text-white">
+                  {post.cta.heading}
+                </h3>
+                <p className="max-w-xl text-sm leading-relaxed text-slate-300">
+                  {post.cta.description}
+                </p>
+              </div>
+              <div className="flex shrink-0 flex-wrap gap-3">
+                <Link
+                  to={post.cta.primaryTo}
+                  className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-3 text-xs font-bold text-white shadow-md transition hover:from-sky-400 hover:to-indigo-400"
+                >
+                  {post.cta.primaryLabel} <ArrowRight className="h-4 w-4" />
+                </Link>
+                {post.cta.secondaryLabel && post.cta.secondaryTo && (
+                  <Link
+                    to={post.cta.secondaryTo}
+                    className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-xs font-bold text-white transition hover:bg-white/20"
+                  >
+                    {post.cta.secondaryLabel}
+                  </Link>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Related Guides */}
